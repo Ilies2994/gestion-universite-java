@@ -4,9 +4,6 @@ import com.universite.model.*;
 import java.time.LocalDate;
 
 public class Main {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         System.out.println("╔═══════════════════════════════════════════════════════╗");
         System.out.println("║  SYSTÈME DE GESTION UNIVERSITAIRE - DÉMONSTRATION    ║");
@@ -32,7 +29,7 @@ public class Main {
         universite.ajouterDepartement(deptMath);
         universite.ajouterDepartement(deptPhysique);
 
-        // ========== CRÉATION DES PROFESSEURS ==========
+        // CRÉATION DES PROFESSEURS
         System.out.println("\n--- Recrutement des professeurs ---");
         
         // Professeurs d'Informatique
@@ -68,7 +65,7 @@ public class Main {
             LocalDate.of(1973, 12, 30), "r.ziani@univ.dz", "0555890123", adr6,
             "PROF006", "Professeur", "Mécanique Quantique", deptPhysique, 82000.0);
 
-        // Recruter tous les professeurs
+        // Recrutement
         universite.recruterProfesseur(profInfo1);
         universite.recruterProfesseur(profInfo2);
         universite.recruterProfesseur(profInfo3);
@@ -159,7 +156,7 @@ public class Main {
         profPhys1.assignerCours(coursPhysL3);
         profPhys1.assignerCours(coursPhysM2);
 
-        //INSCRIPTION DES ÉTUDIANTS
+        //INSCRIPTION
         System.out.println("\n--- Inscription des étudiants ---");
         
         //ÉTUDIANTS INFORMATIQUE
@@ -241,7 +238,7 @@ public class Main {
             LocalDate.of(1998, 11, 8), "k.bencherif@etu.univ.dz", "0666345678", adrEtud13,
             "20180013", "Doctorat", 1, deptPhysique);
 
-        // Inscrire tous les étudiants
+        // Inscription
         universite.inscrireEtudiant(etudInfoL3_1);
         universite.inscrireEtudiant(etudInfoL3_2);
         universite.inscrireEtudiant(etudInfoL3_3);
@@ -372,4 +369,5 @@ public class Main {
         System.out.println("║            FIN DE LA DÉMONSTRATION                    ║");
         System.out.println("╚═══════════════════════════════════════════════════════╝");
     }
+
 }
