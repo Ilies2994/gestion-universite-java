@@ -23,6 +23,27 @@ Il a été conçu pour démontrer l'application des principes de la **Programmat
 * **Relations d'objets** : Gestion des associations bidirectionnelles (Ex: Département <-> Professeur).
 * **Gestion des Dates** : Utilisation de `java.time.LocalDate`.
 
+## Comment lancer le projet (Ligne de Commande)
+
+Ce projet doit être compilé et exécuté depuis le répertoire **racine** (le dossier contenant le dossier `src`).
+
+1.  **Créer le dossier de sortie (si nécessaire) :**
+    ```bash
+    mkdir out
+    ```
+
+2.  **Compiler toutes les classes :**
+    La compilation doit inclure tous les fichiers `.java` et utiliser l'option `-d` pour placer les fichiers `.class` dans le répertoire de sortie (`out`).
+    ```bash
+    javac -d out src/com/universite/model/*.java src/com/universite/Main.java
+    ```
+
+3.  **Exécuter la classe principale :**
+    Utilisez le nom complet de la classe (avec le package) et l'option `-cp` pour spécifier le chemin des classes compilées.
+    ```bash
+    java -cp out com.universite.Main
+    ```
+
 ## Exemple d'exécution
 
 Voici un extrait du rapport généré par l'application :
