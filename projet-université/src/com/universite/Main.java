@@ -6,11 +6,11 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         System.out.println("╔═══════════════════════════════════════════════════════╗");
-        System.out.println("║  SYSTÈME DE GESTION UNIVERSITAIRE - DÉMONSTRATION    ║");
+        System.out.println("║  SYSTÈME DE GESTION UNIVERSITAIRE - DÉMONSTRATION     ║");
         System.out.println("╚═══════════════════════════════════════════════════════╝\n");
 
         // Création de l'université
-        Universite universite = new Universite("Université Abou Bekr Belkaid", "Sidi Bel Abbes", "Algérie");
+        Universite universite = new Universite("Université Djilali Liabes", "Sidi Bel Abbes", "Algérie");
         universite.afficherInfos();
 
         // CRÉATION DES DÉPARTEMENTS
@@ -371,3 +371,4 @@ public class Main {
     }
 
 }
+
