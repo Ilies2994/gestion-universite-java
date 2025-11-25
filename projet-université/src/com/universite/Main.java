@@ -4,6 +4,9 @@ import com.universite.model.*;
 import java.time.LocalDate;
 
 public class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("╔═══════════════════════════════════════════════════════╗");
         System.out.println("║  SYSTÈME DE GESTION UNIVERSITAIRE - DÉMONSTRATION     ║");
@@ -371,4 +374,5 @@ public class Main {
     }
 
 }
+
 
