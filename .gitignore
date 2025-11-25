@@ -1,0 +1,24 @@
+```text
+# Fichiers compilés Java
+*.class
+
+# Dossiers de sortie de compilation (IntelliJ, Eclipse, VS Code)
+out/
+bin/
+target/
+
+# Fichiers de configuration IDE (Optionnel, pour garder le repo propre)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
