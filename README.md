@@ -4,7 +4,7 @@ Ce projet est une application console en **Java** simulant la gestion administra
 
 Il a été conçu pour démontrer l'application des principes de la **Programmation Orientée Objet (POO)** et l'utilisation des fonctionnalités modernes de Java.
 
-## 🚀 Fonctionnalités Principales
+## Fonctionnalités Principales
 
 * **Architecture Hiérarchique** : Gestion de l'Université, des Départements, des Professeurs et des Étudiants.
 * **Système LMD** : Distinction des parcours (Licence, Master, Doctorat) et des années.
@@ -15,7 +15,7 @@ Il a été conçu pour démontrer l'application des principes de la **Programmat
 * **Calculs Automatiques** : Calcul des moyennes pondérées et génération de relevés de notes.
 * **Reporting** : Génération d'un rapport complet avec statistiques globales et classements.
 
-## 🛠️ Concepts Techniques
+## Concepts Techniques
 
 * **Héritage & Polymorphisme** : Classe abstraite `Personne` étendue par `Etudiant` et `Professeur`.
 * **Encapsulation** : Protection des données et accesseurs sécurisés.
@@ -23,7 +23,7 @@ Il a été conçu pour démontrer l'application des principes de la **Programmat
 * **Relations d'objets** : Gestion des associations bidirectionnelles (Ex: Département <-> Professeur).
 * **Gestion des Dates** : Utilisation de `java.time.LocalDate`.
 
-## 💻 Exemple d'exécution
+## Exemple d'exécution
 
 Voici un extrait du rapport généré par l'application :
 
